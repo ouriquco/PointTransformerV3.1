@@ -5,12 +5,12 @@ test_only = False  # test process
 
 seed = None  # train process will init a random seed and record
 save_path = "exp/default"
-num_worker = 16  # total worker in all gpu
-batch_size = 16  # total batch size in all gpu
+num_worker = 32 # was 16  # total worker in all gpu
+batch_size = 8  # total batch size in all gpu
 batch_size_val = None  # auto adapt to bs 1 for each gpu
 batch_size_test = None  # auto adapt to bs 1 for each gpu
-epoch = 100  # total epoch, data loop = epoch // eval_epoch
-eval_epoch = 100  # sche total eval & checkpoint epoch
+epoch = 20  # total epoch, data loop = epoch // eval_epoch
+eval_epoch = 20  # sche total eval & checkpoint epoch
 clip_grad = None  # disable with None, enable with a float
 
 sync_bn = False
