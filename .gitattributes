@@ -1,0 +1,5 @@
+/Users/admin/Desktop/git_lfs/PointTransformerV3.1/exp/waymo/semsegv3-waymo-depth-exp/test.log filter=lfs diff=lfs merge=lfs -text
+/Users/admin/Desktop/git_lfs/PointTransformerV3.1/exp/waymo/semsegv3-waymo-depth-exp/train.log filter=lfs diff=lfs merge=lfs -text
+/Users/admin/Desktop/git_lfs/PointTransformerV3.1/exp/waymo/semsegv3-waymo-depth-exp/events.out.tfevents.1733036182.condo7.hpc.coe filter=lfs diff=lfs merge=lfs -text
+/Users/admin/Desktop/git_lfs/PointTransformerV3.1/exp/waymo/semsegv3-waymo-depth-exp/config.py filter=lfs diff=lfs merge=lfs -text
+/Users/admin/Desktop/git_lfs/PointTransformerV3.1/exp/waymo/semsegv3-waymo-depth-exp/code/** filter=lfs diff=lfs merge=lfs -text
